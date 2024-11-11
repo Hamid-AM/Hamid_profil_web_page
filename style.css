@@ -1,21 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700&family=Lora:wght@400&family=Roboto:wght@300;400;500;700");
 
 body {
-  background-color: #F7F9FC;
+  background-color: #2C003E;
   font-family: 'Lora', serif;
-  color: #575F7D;
+  color: #FFD700;
   font-size: 17px;
   line-height: 1.6;
 }
 
 h1 {
-  color: #575F7D;
+  color: #FFD700;
   font-size: 32px;
   font-weight: bold;
 }
 
 h2 {
-  color: #7ECE90;
+  color: #E6E6FA;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   line-height: 1.6;
@@ -24,32 +24,36 @@ h2 {
 a {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
-  color: #6B72E1;
+  color: #FFD700;
   font-weight: 600;
   font-size: 16px;
 }
 
 a:hover {
-  color: black;
+  color: #4B0082;
 }
 
 .container {
-  background: #F7F9FC;
+  background: #2C003E;
   width: 700px;
   margin: 0 auto;
+  color: #FFD700;
 }
 
 .card-white {
-  background-color: white;
+  background-color: #3A004D;
+  color: #FFD700;
   padding: 40px;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
   margin: 20px 0px;
   text-align: center;
+  border: 2px solid #FFD700;
 }
 
-.img-circle{
+.img-circle {
   border-radius: 50%;
+  border: 3px solid #FFD700;
 }
 
 .list-inline {
@@ -60,41 +64,37 @@ a:hover {
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
+  color: #FFD700;
 }
 
 .btn-blue {
-  background-color: #6B72E1;
-  color: white;
+  background-color: #FFD700;
+  color: #2C003E;
   padding: 15px 20px;
   border-radius: 4px;
+  border: 1px solid #4B0082;
 }
 
 .btn-blue:hover {
-  background-color: black;
-  color: white;
+  background-color: #4B0082;
+  color: #FFD700;
 }
 
 .list-inline i {
   font-size: 40px;
-  color: rgb(230, 230, 230);
+  color: #FFD700;
 }
 
 .list-inline i:hover {
-  color: black;
+  color: #4B0082;
 }
 
- @media (max-width: 800px) {
+@media (max-width: 800px) {
   .container {
     width: 600px;
   }
 }
-/*
-@media (max-width: 720px) {
-  .container {
-    width: 500px;
-  }
-}
-*/
+
 @media (max-width: 600px) {
   .container {
     width: 300px;
